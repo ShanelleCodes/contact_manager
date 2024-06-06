@@ -1,0 +1,128 @@
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #191919;
+}
+main {
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 1em;
+    background: white;
+    border: 2px solid #15b300;
+    border-radius: 25px;
+}
+
+h1 {
+    font-family: "Madimi One", sans-serif;
+    margin-top: 0;
+    color: white;
+    text-align: center;
+}
+label {
+    width: 10em;
+    float: left;
+    padding-right: 1em;
+    padding-bottom: .5em;
+}
+
+a{
+    text-decoration: none;
+    color: #15b300;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+}
+a:hover{
+    color: #129700;
+}
+#data input {
+    float: left;
+    width: 15em;
+    margin-bottom: .5em;
+}
+#data span {
+    padding-left: .25em;
+}
+#buttons input {
+    float: left;
+    margin-bottom: .5em;
+}
+br {
+    clear: left;
+}
+ 
+h2 {
+    font-family: "Madimi One", sans-serif;
+    text-align: center;
+}
+
+table.alternate tr:nth-child(even) {
+    background-color: #BBBBBB;
+}
+
+table{
+    margin: 0 auto;
+}
+td{
+    padding: 6px;
+}
+
+footer{
+    color: rgb(54, 54, 54);
+    
+}
+.update{
+    color:#fff;
+    background-color: #15b300;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+}
+.update:hover{
+    background-color: #129700;
+}
+.delete{
+    color:#fff;
+    background-color: #ce0000;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+}
+.delete:hover{
+    background-color: #ab0000;
+}
+
+/* FORM */
+.form-card{
+    max-width: 600px;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 800px; */
+    width: 100%;
+}
+.save-contact{
+    color:#fff;
+    font-weight: bold;
+    background-color: #15b300;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.save-contact:hover{
+    background-color: #129700;
+}
+.form-input input{
+    border-radius: 8px;
+    border: 2px solid;
+    font-size: medium;
+}
+.form-input{
+    font-weight: bold;
+}
